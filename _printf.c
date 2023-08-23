@@ -118,7 +118,7 @@ int _printf(const char *format, ...)
 					break;
 			}
 		}
-		format++
+		format++;
 	}
 	va_end(arg_list);
 	return (ch_printed);
